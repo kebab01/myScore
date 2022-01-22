@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:HomeTeam+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:HomeTeam+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:GameInfo+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:GameInfo+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AwayTeam+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AwayTeam+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:FootballStats2.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>

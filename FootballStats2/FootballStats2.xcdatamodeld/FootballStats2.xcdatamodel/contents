@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17192" systemVersion="19H2" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AwayTeam" representedClassName="AwayTeam" syncable="YES">
+        <attribute name="corners" optional="YES" attributeType="String"/>
+        <attribute name="cornersIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="cornersIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="cornerTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dateAsDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fouls" optional="YES" attributeType="String"/>
+        <attribute name="foulsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="foulsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="foulTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="gameID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gameVersion" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="goalKicks" optional="YES" attributeType="String"/>
+        <attribute name="goalKicksIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalKicksIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalKickTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="goals" optional="YES" attributeType="String"/>
+        <attribute name="goalsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="offsides" optional="YES" attributeType="String"/>
+        <attribute name="offsidesIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="offsidesIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="offsideTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="penalties" optional="YES" attributeType="String"/>
+        <attribute name="redCards" optional="YES" attributeType="String"/>
+        <attribute name="redCardsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="redCardsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="redCardTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="saves" optional="YES" attributeType="String"/>
+        <attribute name="savesIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="savesIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="saveTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="shotOnTargetTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="shots" optional="YES" attributeType="String"/>
+        <attribute name="shotsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsOnTarget" optional="YES" attributeType="String"/>
+        <attribute name="shotsOnTargetIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsOnTargetIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="throwIns" optional="YES" attributeType="String"/>
+        <attribute name="throwInsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="throwInsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="throwInTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="yellowCards" optional="YES" attributeType="String"/>
+        <attribute name="yellowCardsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="yellowCardsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="yellowCardTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+    </entity>
+    <entity name="GameInfo" representedClassName="GameInfo" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dateAsDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="gameID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gameVersion" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="halfLength" optional="YES" attributeType="String"/>
+        <attribute name="location" optional="YES" attributeType="String"/>
+        <attribute name="notes" optional="YES" attributeType="String"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HomeTeam" representedClassName="HomeTeam" syncable="YES">
+        <attribute name="corners" optional="YES" attributeType="String"/>
+        <attribute name="cornersIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="cornersIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="cornerTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="date" optional="YES" attributeType="String"/>
+        <attribute name="dateAsDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="fouls" optional="YES" attributeType="String"/>
+        <attribute name="foulsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="foulsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="foulTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="gameID" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="gameVersion" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="goalKicks" optional="YES" attributeType="String"/>
+        <attribute name="goalKicksIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalKicksIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalKickTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="goals" optional="YES" attributeType="String"/>
+        <attribute name="goalsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="goalTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="offsides" optional="YES" attributeType="String"/>
+        <attribute name="offsidesIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="offsidesIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="offsideTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="penalties" optional="YES" attributeType="String"/>
+        <attribute name="redCards" optional="YES" attributeType="String"/>
+        <attribute name="redCardsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="redCardsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="redCardTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="saves" optional="YES" attributeType="String"/>
+        <attribute name="savesIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="savesIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="saveTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="shotOnTargetTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="shots" optional="YES" attributeType="String"/>
+        <attribute name="shotsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsOnTarget" optional="YES" attributeType="String"/>
+        <attribute name="shotsOnTargetIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotsOnTargetIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="shotTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="throwIns" optional="YES" attributeType="String"/>
+        <attribute name="throwInsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="throwInsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="throwInTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+        <attribute name="time" optional="YES" attributeType="String"/>
+        <attribute name="yellowCards" optional="YES" attributeType="String"/>
+        <attribute name="yellowCardsIn1" optional="YES" attributeType="Integer 64"/>
+        <attribute name="yellowCardsIn2" optional="YES" attributeType="Integer 64"/>
+        <attribute name="yellowCardTimes" optional="YES" attributeType="Transformable" customClassName="Array&lt;Int&gt;"/>
+    </entity>
+    <elements>
+        <element name="AwayTeam" positionX="36" positionY="144" width="128" height="808"/>
+        <element name="GameInfo" positionX="27" positionY="162" width="128" height="163"/>
+        <element name="HomeTeam" positionX="-18" positionY="27" width="128" height="808"/>
+    </elements>
+</model>
